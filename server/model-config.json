@@ -33,15 +33,15 @@
     "public": false
   },
   "Action": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
   },
   "Outcome": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
   },
   "SupportPlan": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": true
   }
 }
