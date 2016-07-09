@@ -1,0 +1,23 @@
+{
+  "name": "Action",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "actionDate": {
+      "type": "date"
+    },
+    "action": {
+      "type": "string"
+    },
+    "isCompleted": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Outcome",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "outcomeDate": {
+      "type": "date"
+    },
+    "outcomeHeading": {
+      "type": "string"
+    },
+    "preferredOutcome": {
+      "type": "string"
+    },
+    "actions": {
+      "type": [
+        "Action"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

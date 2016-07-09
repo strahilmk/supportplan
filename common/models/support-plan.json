@@ -1,0 +1,19 @@
+{
+  "name": "SupportPlan",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "outcomes": {
+      "type": [
+        "Outcome"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
